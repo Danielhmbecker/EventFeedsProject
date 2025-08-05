@@ -1,0 +1,76 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:🎪 Venue: Bussey Building | 🎟️ Status: Limited Tickets | 👥 Capacity: 1000 | 🚪 Doors: 19:00–23:00 | 🔥 Busyness: 18:15–21:30 | 📝 Empowered pop with choreography and drama\; Feminist crowd\; heavy vocal FX
+DTEND:20251019T230000Z
+DTSTART:20251019T200000Z
+SUMMARY:Self Esteem
+UID:58619575-d2c9-4e07-96ef-5675cb51d95a@5861.org
+URL:https://ticketmaster.co.uk/selfesteem
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🎪 Venue: O2 Academy Brixton | 🎟️ Status: Sold Out | 👥 Capacity: 5000 | 🚪 Doors: 18:30–22:30 | 🔥 Busyness: 17:30–21:00 | 📝 Intimate indie rock with theatrical flair\; Emotional set\; likely very quiet crowd
+DTEND:20251014T223000Z
+DTSTART:20251014T200000Z
+SUMMARY:Mitski
+UID:82897ce3-c895-4634-b6bc-da5e31ea5f11@8289.org
+URL:https://ticketmaster.co.uk/mitski
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🎪 Venue: EartH | 🎟️ Status: Sold Out | 👥 Capacity: 1200 | 🚪 Doors: 18:30–22:30 | 🔥 Busyness: 17:45–21:00 | 📝 Minimal punk-rap duo headline intimate show\; Vocal politically charged crowd
+DTEND:20251017T223000Z
+DTSTART:20251017T193000Z
+SUMMARY:Sleaford Mods
+UID:59a1ab85-e7ef-4cda-9cfc-79b4e4eff5bc@59a1.org
+URL:https://ticketmaster.co.uk/sleafordmods
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🎪 Venue: O2 Shepherd’s Bush Empire | 🎟️ Status: Sold Out | 👥 Capacity: 2000 | 🚪 Doors: 18:00–23:00 | 🔥 Busyness: 17:00–21:00 | 📝 Experimental electronica legend returns\; Complex stage setup\; heavy tech gear
+DTEND:20251013T230000Z
+DTSTART:20251013T193000Z
+SUMMARY:Aphex Twin
+UID:bb4377fd-61ab-4f5a-b8b7-907e769c0cca@bb43.org
+URL:https://seetickets.com/aphextwin
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🎪 Venue: Here at Outernet | 🎟️ Status: Sold Out | 👥 Capacity: 2200 | 🚪 Doors: 18:00–22:30 | 🔥 Busyness: 17:15–21:00 | 📝 London producer's sold-out hometown show\; Heavy light setup\, packed front
+DTEND:20251018T223000Z
+DTSTART:20251018T190000Z
+SUMMARY:Fred again..
+UID:f2a8e8b6-def3-452f-b00c-415ebe2f4fcf@f2a8.org
+URL:https://seetickets.com/fredagain
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🎪 Venue: Electric Ballroom | 🎟️ Status: Sold Out | 👥 Capacity: 1500 | 🚪 Doors: 18:30–22:00 | 🔥 Busyness: 17:45–20:00 | 📝 Political post-punk with dry wit\; Early queuing\; Merch-heavy crowd
+DTEND:20251011T220000Z
+DTSTART:20251011T193000Z
+SUMMARY:Yard Act
+UID:750dc17c-1eed-49b4-8e72-fcc17fb037d8@750d.org
+URL:https://dice.fm/yard-act
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🎪 Venue: Roundhouse | 🎟️ Status: Limited Tickets | 👥 Capacity: 1700 | 🚪 Doors: 19:00–22:30 | 🔥 Busyness: 18:00–21:00 | 📝 Club-ready hyperpop + visual show\; High-energy\, young crowd
+DTEND:20251012T223000Z
+DTSTART:20251012T200000Z
+SUMMARY:Charli XCX
+UID:808beb8f-4017-443d-a42c-603dd0bbcec5@808b.org
+URL:https://ticketmaster.co.uk/charlixcx
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🎪 Venue: The 100 Club | 🎟️ Status: Final Release | 👥 Capacity: 350 | 🚪 Doors: 19:00–22:00 | 🔥 Busyness: 18:30–21:00 | 📝 Bubblegrunge pop at legendary basement\; Queer indie crowd\; busy merch table
+DTEND:20251016T220000Z
+DTSTART:20251016T200000Z
+SUMMARY:Baby Queen
+UID:87bd85e8-fe98-4092-91a8-1b3abbce3169@87bd.org
+URL:https://dice.fm/babyqueen
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🎪 Venue: Village Underground | 🎟️ Status: Sold Out | 👥 Capacity: 1000 | 🚪 Doors: 18:00–22:30 | 🔥 Busyness: 17:00–21:30 | 📝 Belfast techno with deep bass & lasers\; Electronic duo\; visual-heavy set
+DTEND:20251020T223000Z
+DTSTART:20251020T190000Z
+SUMMARY:Bicep
+UID:36550c50-671b-4c17-bd09-7045ab40a720@3655.org
+URL:https://ticketmaster.co.uk/bicep
+END:VEVENT
+END:VCALENDAR

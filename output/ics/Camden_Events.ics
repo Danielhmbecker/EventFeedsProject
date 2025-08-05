@@ -2,19 +2,19 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:🎪 Venue: Electric Ballroom | 🎟️ Status: Sold Out | 👥 Capacity: 1500 | 🚪 Doors: 18:30–22:00 | 🔥 Busyness: 17:45–20:00 | 📝 Political post-punk with dry wit\; Early queuing\; Merch-heavy crowd
-DTEND:20251011T220000Z
-DTSTART:20251011T193000Z
-SUMMARY:Yard Act
-UID:e78bf80e-045f-4725-a751-93672a5229e2@e78b.org
-URL:https://dice.fm/yard-act
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:🎪 Venue: Roundhouse | 🎟️ Status: Limited Tickets | 👥 Capacity: 1700 | 🚪 Doors: 19:00–22:30 | 🔥 Busyness: 18:00–21:00 | 📝 Club-ready hyperpop + visual show\; High-energy\, young crowd
 DTEND:20251012T223000Z
 DTSTART:20251012T200000Z
 SUMMARY:Charli XCX
-UID:858134ea-eb66-4cbe-9ead-3b54976a51c0@8581.org
+UID:808beb8f-4017-443d-a42c-603dd0bbcec5@808b.org
 URL:https://ticketmaster.co.uk/charlixcx
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🎪 Venue: Electric Ballroom | 🎟️ Status: Sold Out | 👥 Capacity: 1500 | 🚪 Doors: 18:30–22:00 | 🔥 Busyness: 17:45–20:00 | 📝 Political post-punk with dry wit\; Early queuing\; Merch-heavy crowd
+DTEND:20251011T220000Z
+DTSTART:20251011T193000Z
+SUMMARY:Yard Act
+UID:750dc17c-1eed-49b4-8e72-fcc17fb037d8@750d.org
+URL:https://dice.fm/yard-act
 END:VEVENT
 END:VCALENDAR
