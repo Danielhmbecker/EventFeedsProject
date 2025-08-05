@@ -1,140 +1,106 @@
 import os
-from pathlib import Path
-from collections import defaultdict
-from datetime import datetime
+import csv
+from datetime import datetime, timedelta
 from ics import Calendar, Event
 
-# Paths
-DATA_FILE = "data/master_events.txt"
-TXT_DIR = "output/txt"
-ICS_DIR = "output/ics"
-FEEDS_INDEX = "output/feeds_index.txt"
-NETLIFY_BASE_URL = "https://eventfeedslondon.netlify.app/output/ics"
+BASE_URL = "https://eventfeedsproject.netlify.app/output/ics/"
+INPUT_FILE = "data/master_events.txt"
+OUTPUT_TXT_DIR = "output/txt"
+OUTPUT_ICS_DIR = "output/ics"
+INDEX_FILE = "output/feeds_index.txt"
 
-# Ensure output directories exist
-os.makedirs(TXT_DIR, exist_ok=True)
-os.makedirs(ICS_DIR, exist_ok=True)
+os.makedirs(OUTPUT_TXT_DIR, exist_ok=True)
+os.makedirs(OUTPUT_ICS_DIR, exist_ok=True)
 
-def format_local_impact(venue, capacity, doors_open, doors_close, ticket_url, tube, bus, notes, busy_start, busy_end):
-    output = [
-        f"📍 Venue: {venue} (Capacity: {capacity})",
-        f"🚉 Access: {tube} (Tube) / {bus} (Bus)",
-        f"🚪 Doors: {doors_open}–{doors_close}",
-        f"🎟️ Tickets: {ticket_url}",
-        f"🔥 Busyness: {busy_start} – {busy_end}",
-    ]
+events_by_area = {}
 
-    notes = notes.strip()
-    if notes and notes.lower() != "n/a":
-        if ";" in notes:
-            note_lines = [f"• {n.strip()}" for n in notes.split(";") if n.strip()]
-        else:
-            note_lines = [f"• {notes}"]
-        output.append("🗒️ Notes:\n" + "\n".join(note_lines))
-
-    return "📊 Local Impact:\n" + "\n".join(output)
-
-# Load and group events by area
-area_events = defaultdict(list)
-
-with open(DATA_FILE, "r", encoding="utf-8") as f:
-    for line in f:
-        if not line.strip() or line.startswith("#"):
-            continue
-        parts = [p.strip() for p in line.strip().split("|")]
-        if len(parts) < 15:
-            print(f"⚠️ Skipping malformed line: {line}")
+with open(INPUT_FILE, "r", encoding="utf-8") as f:
+    reader = csv.reader(f, delimiter="|")
+    for row in reader:
+        if len(row) != 14:
+            print(f"Skipping invalid row: {row}")
             continue
 
-        (
-            date_str, artist, url, area, venue, capacity, doors_open, start, end,
-            description, status, notes, busy_start, busy_end, extra
-        ) = parts
+        (date_str, artist, url, area, venue, capacity, doors_open, start, end,
+         status, notes, busy_start, busy_end, description) = [x.strip() for x in row]
 
-        event_data = {
+        key = area.replace("’", "'").strip()
+        events_by_area.setdefault(key, []).append({
             "date": date_str,
             "artist": artist,
             "url": url,
-            "area": area,
+            "area": key,
             "venue": venue,
             "capacity": capacity,
             "doors_open": doors_open,
-            "doors_close": "19:45",  # Static for now
             "start": start,
             "end": end,
-            "description": description,
             "status": status,
             "notes": notes,
             "busy_start": busy_start,
             "busy_end": busy_end,
-            "tube": extra,
-            "bus": area  # Placeholder: use area name as dummy for bus
-        }
+            "description": description
+        })
 
-        area_key = area.replace(" ", "_")
-        area_events[area_key].append(event_data)
+def format_local_impact(e):
+    notes_parts = []
 
-# Write feeds
-active_feeds = []
+    if e['description'] and e['description'].lower() != "n/a":
+        notes_parts.append(e['description'])
 
-for area_key, events in area_events.items():
-    if not events:
-        continue
+    if e['notes'] and e['notes'].lower() != "n/a":
+        notes_parts.append(e['notes'])
 
-    txt_path = os.path.join(TXT_DIR, f"{area_key}_Events.txt")
-    txt_lines = [
-        " | ".join([
-            e["date"], e["artist"], e["url"], e["area"], e["venue"], e["capacity"],
-            e["doors_open"], e["start"], e["end"], e["description"], e["status"],
-            e["notes"], e["busy_start"], e["busy_end"], e["tube"]
-        ]) for e in events
-    ]
-    txt_content = "\n".join(txt_lines) + "\n"
-    if not os.path.exists(txt_path) or open(txt_path).read() != txt_content:
-        with open(txt_path, "w", encoding="utf-8") as f:
-            f.write(txt_content)
+    local_impact = (
+        f"🎪 Venue: {e['venue']} | "
+        f"🎟️ Status: {e['status']} | "
+        f"👥 Capacity: {e['capacity']} | "
+        f"🚪 Doors: {e['doors_open']}–{e['end']} | "
+        f"🔥 Busyness: {e['busy_start']}–{e['busy_end']} | "
+        f"📝 {'; '.join(notes_parts)}"
+    )
+    return local_impact
 
+feeds_index = []
+
+for area, events in events_by_area.items():
     cal = Calendar()
-    for e in events:
-        try:
-            start_dt = datetime.strptime(f'{e["date"]} {e["start"]}', "%Y-%m-%d %H:%M")
-            end_dt = datetime.strptime(f'{e["date"]} {e["end"]}', "%Y-%m-%d %H:%M")
-        except ValueError:
-            print(f"⚠️ Invalid datetime for event: {e}")
-            continue
+    txt_path = os.path.join(OUTPUT_TXT_DIR, f"{area.replace(' ', '_')}_Events.txt")
+    ics_path = os.path.join(OUTPUT_ICS_DIR, f"{area.replace(' ', '_')}_Events.ics")
 
-        event = Event()
-        event.name = f"{e['artist']} @ {e['venue']}"
-        event.begin = start_dt
-        event.end = end_dt
-        event.location = e["venue"]
-        event.description = (
-            f"{e['description']}\n\n" +
-            format_local_impact(e['venue'], e['capacity'], e['doors_open'], e['doors_close'],
-                                e['url'], e['tube'], e['bus'], e['notes'], e['busy_start'], e['busy_end'])
-        )
-        cal.events.add(event)
+    with open(txt_path, "w", encoding="utf-8") as txt_file:
+        for e in events:
+            try:
+                start_dt = datetime.strptime(f"{e['date']} {e['start']}", "%Y-%m-%d %H:%M")
+                end_dt = datetime.strptime(f"{e['date']} {e['end']}", "%Y-%m-%d %H:%M")
+            except ValueError:
+                print(f"Skipping event due to invalid date/time: {e}")
+                continue
 
-    ics_path = os.path.join(ICS_DIR, f"{area_key}_Events.ics")
-    new_ics = cal.serialize()
-    if not os.path.exists(ics_path) or open(ics_path).read() != new_ics:
+            if end_dt <= start_dt:
+                print(f"⚠️ Skipping event with invalid timing: {e['artist']} on {e['date']}")
+                continue
+
+            event = Event()
+            event.name = e["artist"]
+            event.begin = start_dt
+            event.end = end_dt
+            event.url = e["url"]
+            event.description = format_local_impact(e)
+            cal.events.add(event)
+
+            txt_file.write(f"{e['date']} | {e['artist']} | {e['venue']} | {e['start']}–{e['end']} | {e['status']}\n")
+
+    if cal.events:
         with open(ics_path, "w", encoding="utf-8") as f:
-            f.write(new_ics)
+            f.writelines(cal.serialize_iter())
+        feeds_index.append(f"{area} | {BASE_URL}{area.replace(' ', '_')}_Events.ics")
+    else:
+        os.remove(txt_path)
+        if os.path.exists(ics_path):
+            os.remove(ics_path)
 
-    active_feeds.append(f"{NETLIFY_BASE_URL}/{area_key}_Events.ics")
-
-# Cleanup
-existing_txt = {p.name for p in Path(TXT_DIR).glob("*_Events.txt")}
-existing_ics = {p.name for p in Path(ICS_DIR).glob("*_Events.ics")}
-valid_files = {f"{k}_Events.txt" for k in area_events} | {f"{k}_Events.ics" for k in area_events}
-
-for f in existing_txt - valid_files:
-    os.remove(os.path.join(TXT_DIR, f))
-for f in existing_ics - valid_files:
-    os.remove(os.path.join(ICS_DIR, f))
-
-with open(FEEDS_INDEX, "w", encoding="utf-8") as f:
-    for url in sorted(active_feeds):
-        f.write(url + "\n")
-
-print(f"✅ Done. Generated {len(active_feeds)} area feeds.")
+# Write feeds_index.txt
+with open(INDEX_FILE, "w", encoding="utf-8") as index_file:
+    for line in sorted(feeds_index):
+        index_file.write(line + "\n")
