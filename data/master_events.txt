@@ -1,4 +1,10 @@
-# Format:
-# Date | Artist | URL | Area | Venue | Capacity | Doors Open | Start | End | Description | Status | Notes | Busyness Start | Busyness End | Closest Tube
-
+2025-09-12 | Fontaines D.C. | https://ticketmaster.co.uk/fontainesdc | Camden | Roundhouse | 1700 | 18:30 | 19:30 | 22:30 | Gritty post-punk from Dublin favourites | Sold Out | Loud crowd; Late curfew | 18:00 | 21:30 | Chalk Farm
+2025-09-18 | Jessie Ware | https://seetickets.com/jessieware | Brixton | O2 Academy Brixton | 5000 | 19:00 | 20:00 | 23:00 | Soulful disco queen live in South London | Limited Tickets | High demand; Strict bag policy | 18:00 | 21:00 | Brixton
+2025-10-05 | Disclosure | https://ticketmaster.co.uk/disclosure | Hammersmith | Eventim Apollo | 5000 | 18:00 | 19:00 | 22:00 | UK electronic duo return with new visuals | On Sale | High volume crowd; No support act | 17:00 | 20:30 | Hammersmith
+2025-10-11 | Yard Act | https://dice.fm/yard-act | Camden | Electric Ballroom | 1500 | 18:30 | 19:30 | 22:00 | Political post-punk with dry wit | Sold Out | Early queuing; Merch-heavy crowd | 17:45 | 20:00 | Camden Town
+2025-10-16 | LCD Soundsystem | https://ticketmaster.co.uk/lcdsoundsystem | Islington | O2 Academy Islington | 800 | 19:00 | 20:00 | 23:00 | NYC indie legends in an intimate venue | Sold Out | VIP guestlist; 2-hour set | 18:30 | 22:00 | Angel
 2025-11-01 | Peter Murphy | https://ticketmaster.co.uk/peter-murphy | Shepherd’s Bush | O2 Shepherd’s Bush Empire | 2000 | 19:00 | 19:30 | 23:00 | Celebrating David Bowie | Sold Out | VIPs attending; Late finish | 18:30 | 21:00 | Shepherd’s Bush Market
+2025-11-08 | Arlo Parks | https://seetickets.com/arlo-parks | Soho | The 100 Club | 350 | 19:00 | 20:00 | 22:00 | Mercury Prize winner returns for small show | Limited Tickets | Emotional crowd; No re-entry | 18:30 | 21:00 | Oxford Circus
+2025-11-14 | Bicep | https://ticketmaster.co.uk/bicep | Shoreditch | Village Underground | 700 | 22:00 | 23:00 | 03:00 | Club night from Belfast’s electronic duo | On Sale | Late load-in; No photography | 21:00 | 01:00 | Shoreditch High Street
+2025-11-21 | Self Esteem | https://ticketmaster.co.uk/selfesteem | Camden | KOKO | 1500 | 19:00 | 20:00 | 23:00 | Theatrical pop and high production value | Sold Out | Costume change setup; Vocal-heavy mix | 18:30 | 22:00 | Mornington Crescent
+2025-12-05 | Slowthai | https://seetickets.com/slowthai | Hackney | EartH Theatre | 1200 | 18:30 | 19:30 | 22:30 | Unfiltered UK rap and punk energy | Sold Out | Aggressive crowd; Security-heavy | 18:00 | 21:00 | Dalston Kingsland
