@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:Political post-punk with dry wit\n\n📊 Local Impact:\n📍 Venue: Electric Ballroom (Capacity: 1500)\n🚉 Access: Camden Tow (Tube) / Camden (Bus)\n🚪 Doors: 18:30–19:45\n🎟️ Tickets: https://dice.fm/yard-act\n🔥 Busyness: 17:45 – 20:00\n🗒️ Notes:\n• Early queuing\n• Merch-heavy crowd
+DTEND:20251011T220000Z
+LOCATION:Electric Ballroom
+DTSTART:20251011T193000Z
+SUMMARY:Yard Act @ Electric Ballroom
+UID:992de030-6021-424b-8816-3a5e30840a7e@992d.org
+END:VEVENT
+END:VCALENDAR
