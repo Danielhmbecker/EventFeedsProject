@@ -1,0 +1,4 @@
+# Format:
+# Date | Artist | URL | Area | Venue | Capacity | Doors Open | Start | End | Description | Status | Notes | Busyness Start | Busyness End | Closest Tube
+
+2025-11-01 | Peter Murphy | https://ticketmaster.co.uk/peter-murphy | Shepherd’s Bush | O2 Shepherd’s Bush Empire | 2000 | 19:00 | 19:30 | 23:00 | Celebrating David Bowie | Sold Out | VIPs attending; Late finish | 18:30 | 21:00 | Shepherd’s Bush Market
