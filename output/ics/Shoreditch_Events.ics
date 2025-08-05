@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:🎪 Venue: Village Underground | 🎟️ Status: Sold Out | 👥 Capacity: 1000 | 🚪 Doors: 18:00–22:30 | 🔥 Busyness: 17:00–21:30 | 📝 Belfast techno with deep bass & lasers\; Electronic duo\; visual-heavy set
+DTEND:20251020T223000Z
+DTSTART:20251020T190000Z
+SUMMARY:Bicep
+UID:b0098921-45df-4023-a4ee-bd39f8066372@b009.org
+URL:https://ticketmaster.co.uk/bicep
+END:VEVENT
+END:VCALENDAR

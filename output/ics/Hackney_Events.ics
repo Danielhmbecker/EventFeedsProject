@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:🎪 Venue: EartH | 🎟️ Status: Sold Out | 👥 Capacity: 1200 | 🚪 Doors: 18:30–22:30 | 🔥 Busyness: 17:45–21:00 | 📝 Minimal punk-rap duo headline intimate show\; Vocal politically charged crowd
+DTEND:20251017T223000Z
+DTSTART:20251017T193000Z
+SUMMARY:Sleaford Mods
+UID:824f13ad-eb94-49fd-86f9-668486a1e37f@824f.org
+URL:https://ticketmaster.co.uk/sleafordmods
+END:VEVENT
+END:VCALENDAR

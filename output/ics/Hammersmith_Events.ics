@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:🎪 Venue: Eventim Apollo | 🎟️ Status: Sold Out | 👥 Capacity: 4000 | 🚪 Doors: 18:00–23:00 | 🔥 Busyness: 17:00–21:30 | 📝 Dance-punk fusion legends on UK leg\; Older crowd\; energetic encore expected
+DTEND:20251015T230000Z
+DTSTART:20251015T190000Z
+SUMMARY:LCD Soundsystem
+UID:b122547b-8285-453c-858c-4c17e00e664e@b122.org
+URL:https://seetickets.com/lcd
+END:VEVENT
+END:VCALENDAR

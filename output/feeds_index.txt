@@ -1,1 +1,9 @@
-https://eventfeedslondon.netlify.app/output/ics/Camden_Events.ics
+Brixton | https://eventfeedsproject.netlify.app/output/ics/Brixton_Events.ics
+Camden | https://eventfeedsproject.netlify.app/output/ics/Camden_Events.ics
+Hackney | https://eventfeedsproject.netlify.app/output/ics/Hackney_Events.ics
+Hammersmith | https://eventfeedsproject.netlify.app/output/ics/Hammersmith_Events.ics
+Peckham | https://eventfeedsproject.netlify.app/output/ics/Peckham_Events.ics
+Shepherd's Bush | https://eventfeedsproject.netlify.app/output/ics/Shepherd's_Bush_Events.ics
+Shoreditch | https://eventfeedsproject.netlify.app/output/ics/Shoreditch_Events.ics
+Soho | https://eventfeedsproject.netlify.app/output/ics/Soho_Events.ics
+Stratford | https://eventfeedsproject.netlify.app/output/ics/Stratford_Events.ics

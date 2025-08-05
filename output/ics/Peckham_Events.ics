@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:🎪 Venue: Bussey Building | 🎟️ Status: Limited Tickets | 👥 Capacity: 1000 | 🚪 Doors: 19:00–23:00 | 🔥 Busyness: 18:15–21:30 | 📝 Empowered pop with choreography and drama\; Feminist crowd\; heavy vocal FX
+DTEND:20251019T230000Z
+DTSTART:20251019T200000Z
+SUMMARY:Self Esteem
+UID:88bdf406-185b-4b80-960f-d40f32d47dbf@88bd.org
+URL:https://ticketmaster.co.uk/selfesteem
+END:VEVENT
+END:VCALENDAR

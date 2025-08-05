@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:🎪 Venue: The 100 Club | 🎟️ Status: Final Release | 👥 Capacity: 350 | 🚪 Doors: 19:00–22:00 | 🔥 Busyness: 18:30–21:00 | 📝 Bubblegrunge pop at legendary basement\; Queer indie crowd\; busy merch table
+DTEND:20251016T220000Z
+DTSTART:20251016T200000Z
+SUMMARY:Baby Queen
+UID:93f70b26-1d94-45af-9799-c883bf819b5e@93f7.org
+URL:https://dice.fm/babyqueen
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:🎪 Venue: O2 Shepherd’s Bush Empire | 🎟️ Status: Sold Out | 👥 Capacity: 2000 | 🚪 Doors: 18:00–23:00 | 🔥 Busyness: 17:00–21:00 | 📝 Experimental electronica legend returns\; Complex stage setup\; heavy tech gear
+DTEND:20251013T230000Z
+DTSTART:20251013T193000Z
+SUMMARY:Aphex Twin
+UID:5e8a93b3-1373-47df-84b6-a5ccb5355c4c@5e8a.org
+URL:https://seetickets.com/aphextwin
+END:VEVENT
+END:VCALENDAR

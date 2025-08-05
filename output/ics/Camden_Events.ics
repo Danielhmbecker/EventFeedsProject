@@ -2,11 +2,19 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:Political post-punk with dry wit\n\n📊 Local Impact:\n📍 Venue: Electric Ballroom (Capacity: 1500)\n🚉 Access: Camden Tow (Tube) / Camden (Bus)\n🚪 Doors: 18:30–19:45\n🎟️ Tickets: https://dice.fm/yard-act\n🔥 Busyness: 17:45 – 20:00\n🗒️ Notes:\n• Early queuing\n• Merch-heavy crowd
+DESCRIPTION:🎪 Venue: Electric Ballroom | 🎟️ Status: Sold Out | 👥 Capacity: 1500 | 🚪 Doors: 18:30–22:00 | 🔥 Busyness: 17:45–20:00 | 📝 Political post-punk with dry wit\; Early queuing\; Merch-heavy crowd
 DTEND:20251011T220000Z
-LOCATION:Electric Ballroom
 DTSTART:20251011T193000Z
-SUMMARY:Yard Act @ Electric Ballroom
-UID:992de030-6021-424b-8816-3a5e30840a7e@992d.org
+SUMMARY:Yard Act
+UID:e78bf80e-045f-4725-a751-93672a5229e2@e78b.org
+URL:https://dice.fm/yard-act
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🎪 Venue: Roundhouse | 🎟️ Status: Limited Tickets | 👥 Capacity: 1700 | 🚪 Doors: 19:00–22:30 | 🔥 Busyness: 18:00–21:00 | 📝 Club-ready hyperpop + visual show\; High-energy\, young crowd
+DTEND:20251012T223000Z
+DTSTART:20251012T200000Z
+SUMMARY:Charli XCX
+UID:858134ea-eb66-4cbe-9ead-3b54976a51c0@8581.org
+URL:https://ticketmaster.co.uk/charlixcx
 END:VEVENT
 END:VCALENDAR

@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:🎪 Venue: O2 Academy Brixton | 🎟️ Status: Sold Out | 👥 Capacity: 5000 | 🚪 Doors: 18:30–22:30 | 🔥 Busyness: 17:30–21:00 | 📝 Intimate indie rock with theatrical flair\; Emotional set\; likely very quiet crowd
+DTEND:20251014T223000Z
+DTSTART:20251014T200000Z
+SUMMARY:Mitski
+UID:b7e8234a-4932-4741-9592-11c21818d3c9@b7e8.org
+URL:https://ticketmaster.co.uk/mitski
+END:VEVENT
+END:VCALENDAR

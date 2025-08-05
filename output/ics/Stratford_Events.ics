@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:🎪 Venue: Here at Outernet | 🎟️ Status: Sold Out | 👥 Capacity: 2200 | 🚪 Doors: 18:00–22:30 | 🔥 Busyness: 17:15–21:00 | 📝 London producer's sold-out hometown show\; Heavy light setup\, packed front
+DTEND:20251018T223000Z
+DTSTART:20251018T190000Z
+SUMMARY:Fred again..
+UID:64992573-c38d-4fd9-93db-5f5efa745d73@6499.org
+URL:https://seetickets.com/fredagain
+END:VEVENT
+END:VCALENDAR
