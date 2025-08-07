@@ -2,11 +2,19 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:🎪 Venue: O2 Academy Brixton | 🎟️ Status: Sold Out | 👥 Capacity: 5000 | 🚪 Doors: 18:30–22:30 | 🔥 Busyness: 17:30–21:00 | 📝 Intimate indie rock with theatrical flair\; Emotional set\; likely very quiet crowd
-DTEND:20251014T223000Z
-DTSTART:20251014T200000Z
-SUMMARY:Mitski
-UID:82897ce3-c895-4634-b6bc-da5e31ea5f11@8289.org
-URL:https://ticketmaster.co.uk/mitski
+DESCRIPTION:⚠️ This is an error event. Please review manually.\n🎪 Venue: Electric Brixton | 🎟️ Status: Available | 👥 Capacity: 1700 | 🚪 Doors: 23:00–06:00 | 🔥 Busyness: 00:00–05:00 | 📝 Psytrance legends throw an all-night live + DJ set party with special guests (18+).\; w/ Giorgia Angiuli
+DTEND:20251003T183000Z
+DTSTART:20251003T180000Z
+SUMMARY:Infected Mushroom
+UID:7d85a9b0-60e7-452e-aee6-0608648e7563@7d85.org
+URL:https://ra.co/events/2134000
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🎪 Venue: O2 Academy Brixton | 🎟️ Status: Available | 👥 Capacity: 4921 | 🚪 Doors: 18:00–23:00 | 🔥 Busyness: 18:30–22:00 | 📝 American synthwave duo brings their nostalgic 80s-inspired sound to a packed Brixton Academy.
+DTEND:20251008T230000Z
+DTSTART:20251008T190000Z
+SUMMARY:The Midnight
+UID:950af0cc-0a23-4829-ae2a-9deaae47a7b1@950a.org
+URL:https://www.ticketmaster.co.uk/event/37005E92AF1A4C9C
 END:VEVENT
 END:VCALENDAR

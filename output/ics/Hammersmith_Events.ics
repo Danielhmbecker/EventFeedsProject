@@ -2,11 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:🎪 Venue: Eventim Apollo | 🎟️ Status: Sold Out | 👥 Capacity: 4000 | 🚪 Doors: 18:00–23:00 | 🔥 Busyness: 17:00–21:30 | 📝 Dance-punk fusion legends on UK leg\; Older crowd\; energetic encore expected
-DTEND:20251015T230000Z
-DTSTART:20251015T190000Z
-SUMMARY:LCD Soundsystem
-UID:b122547b-8285-453c-858c-4c17e00e664e@b122.org
-URL:https://seetickets.com/lcd
+DESCRIPTION:🎪 Venue: Eventim Apollo | 🎟️ Status: Available | 👥 Capacity: 5000 | 🚪 Doors: 18:30–22:30 | 🔥 Busyness: 18:30–21:30 | 📝 Cult indie singer-songwriter Alex G brings his intimate lo-fi rock to the Apollo stage.
+DTEND:20251114T223000Z
+DTSTART:20251114T190000Z
+SUMMARY:Alex G
+UID:57e1a061-d2ae-49eb-851a-4c5eed1ff712@57e1.org
+URL:https://www.ticketmaster.co.uk/alex-g-london-14-11-2025/event/360062C5B20129DF
 END:VEVENT
 END:VCALENDAR

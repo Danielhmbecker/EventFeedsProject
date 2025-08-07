@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:🎪 Venue: The O2 Arena | 🎟️ Status: Available | 👥 Capacity: 20000 | 🚪 Doors: 18:30–22:30 | 🔥 Busyness: 19:00–21:30 | 📝 Grammy-nominated pop-rock band brings their Escape to Europe Tour to London’s arena.\; Ella Henderson supporting
+DTEND:20250926T223000Z
+DTSTART:20250926T200000Z
+SUMMARY:OneRepublic
+UID:e80cdab6-180e-462d-9d55-7275cac9a4d6@e80c.org
+URL:https://www.theo2.co.uk/events/detail/onerepublic-2025
+END:VEVENT
+END:VCALENDAR

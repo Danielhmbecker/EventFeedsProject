@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:🎪 Venue: Alexandra Palace | 🎟️ Status: Sold Out | 👥 Capacity: 10000 | 🚪 Doors: 18:30–23:00 | 🔥 Busyness: 19:00–22:00 | 📝 Pioneering electronic artist Four Tet returns to Ally Pally’s Great Hall with an immersive live set.
+DTEND:20251122T230000Z
+DTSTART:20251122T200000Z
+SUMMARY:Four Tet
+UID:06ada306-0597-4bdc-a316-614eb7eca50c@06ad.org
+URL:https://www.seetickets.com/event/four-tet/alexandra-palace/XXXX
+END:VEVENT
+END:VCALENDAR

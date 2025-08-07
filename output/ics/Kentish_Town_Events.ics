@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DESCRIPTION:🎪 Venue: O2 Forum Kentish Town | 🎟️ Status: Available | 👥 Capacity: 2300 | 🚪 Doors: 18:00–22:00 | 🔥 Busyness: 18:30–21:00 | 📝 TikTok-star-turned-pop singer headlines her first London show.
+DTEND:20250830T220000Z
+DTSTART:20250830T190000Z
+SUMMARY:Addison Rae
+UID:5f4f945a-16a0-4bed-8fc1-b97fa4a9511a@5f4f.org
+URL:https://www.ticketmaster.co.uk/event/1F005E8DBCC516F8
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🎪 Venue: O2 Forum Kentish Town | 🎟️ Status: Available | 👥 Capacity: 2300 | 🚪 Doors: 18:00–22:00 | 🔥 Busyness: 18:30–21:00 | 📝 Australian indie rock project of Angus Stone stops in London on tour.
+DTEND:20250905T220000Z
+DTSTART:20250905T190000Z
+SUMMARY:Dope Lemon
+UID:5c9117c2-3ce6-4e0c-9d79-d95d6832df53@5c91.org
+URL:https://www.ticketmaster.co.uk/event/1F005E8AC8A010F2
+END:VEVENT
+END:VCALENDAR

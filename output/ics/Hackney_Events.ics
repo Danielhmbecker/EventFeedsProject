@@ -2,11 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:🎪 Venue: EartH | 🎟️ Status: Sold Out | 👥 Capacity: 1200 | 🚪 Doors: 18:30–22:30 | 🔥 Busyness: 17:45–21:00 | 📝 Minimal punk-rap duo headline intimate show\; Vocal politically charged crowd
-DTEND:20251017T223000Z
-DTSTART:20251017T193000Z
-SUMMARY:Sleaford Mods
-UID:59a1ab85-e7ef-4cda-9cfc-79b4e4eff5bc@59a1.org
-URL:https://ticketmaster.co.uk/sleafordmods
+DESCRIPTION:🎪 Venue: Moth Club | 🎟️ Status: Available | 👥 Capacity: 300 | 🚪 Doors: 18:30–22:00 | 🔥 Busyness: 18:30–21:00 | 📝 LA indie rock band brings darkwave vibes to an intimate club show.
+DTEND:20250822T220000Z
+DTSTART:20250822T190000Z
+SUMMARY:Provoker
+UID:2277df42-cb1e-45a3-ab47-b0997af51e40@2277.org
+URL:https://www.ticketmaster.co.uk/event/1F005E97C4AB3B49
 END:VEVENT
 END:VCALENDAR

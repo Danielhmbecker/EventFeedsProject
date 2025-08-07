@@ -2,11 +2,35 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:🎪 Venue: The 100 Club | 🎟️ Status: Final Release | 👥 Capacity: 350 | 🚪 Doors: 19:00–22:00 | 🔥 Busyness: 18:30–21:00 | 📝 Bubblegrunge pop at legendary basement\; Queer indie crowd\; busy merch table
-DTEND:20251016T220000Z
-DTSTART:20251016T200000Z
-SUMMARY:Baby Queen
-UID:87bd85e8-fe98-4092-91a8-1b3abbce3169@87bd.org
-URL:https://dice.fm/babyqueen
+DESCRIPTION:🎪 Venue: HERE at Outernet | 🎟️ Status: Available | 👥 Capacity: 2000 | 🚪 Doors: 19:00–23:00 | 🔥 Busyness: 19:30–22:00 | 📝 London drum-and-bass outfit plays an immersive album launch DJ set.
+DTEND:20250828T230000Z
+DTSTART:20250828T200000Z
+SUMMARY:Rudimental
+UID:34384c9c-3027-4cfa-8029-2c2557e061b8@3438.org
+URL:https://www.ticketmaster.co.uk/event/35005F1EA0A0197D
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🎪 Venue: HERE at Outernet | 🎟️ Status: Available | 👥 Capacity: 2000 | 🚪 Doors: 19:00–23:00 | 🔥 Busyness: 19:30–22:00 | 📝 Austrian electronic duo presents their atmospheric ‘The Silver Cage’ world tour live.
+DTEND:20250925T230000Z
+DTSTART:20250925T200000Z
+SUMMARY:HVOB
+UID:d3061cf7-9d48-4a35-bb62-64d0ae387bbe@d306.org
+URL:https://dice.fm/event/bbpd5k-hvob-the-silver-cage-london-25th-sep-here-at-outernet-london
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🎪 Venue: HERE at Outernet | 🎟️ Status: Available | 👥 Capacity: 2000 | 🚪 Doors: 19:00–22:30 | 🔥 Busyness: 19:30–21:30 | 📝 Drum & bass icons spin an exclusive ‘Inertia’ album release set.\; Album launch DJ show
+DTEND:20250905T223000Z
+DTSTART:20250905T190000Z
+SUMMARY:Pendulum (DJ Set)
+UID:a6ca9e68-273a-42df-8745-9abc65a0e33e@a6ca.org
+URL:https://dice.fm/event/pndlum-inertia-dj-show-2025
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🎪 Venue: HERE at Outernet | 🎟️ Status: Available | 👥 Capacity: 2000 | 🚪 Doors: 19:00–23:00 | 🔥 Busyness: 19:30–22:00 | 📝 Brazilian Bahian guitar collective ignites an Afro-Brazilian carnival party.
+DTEND:20250910T230000Z
+DTSTART:20250910T200000Z
+SUMMARY:BaianaSystem
+UID:ea1dee61-c479-45ca-be38-e3ed1eafb4e8@ea1d.org
+URL:https://dice.fm/event/pye7q8-baianasystem-10th-sep-here-at-outernet-london
 END:VEVENT
 END:VCALENDAR
